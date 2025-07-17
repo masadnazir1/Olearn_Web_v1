@@ -15,8 +15,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Olearn - Learn Easily",
-  description: "Your favorite learning platform for modern skills.",
+  title: "Olearn - Learn Fast, Learn Smart",
+  description:
+    "Olearn offers high-impact courses to boost your skills efficiently and effectively.",
+  keywords: ["Online Courses", "Fast Learning", "Skill Development", "Olearn"],
+  themeColor: "#1e40af",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  alternates: {
+    canonical: "https://olearn.com",
+  },
 };
 
 export default function RootLayout({
@@ -25,8 +34,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
         <Navbar />
         <main>{children}</main>
         <Footer />

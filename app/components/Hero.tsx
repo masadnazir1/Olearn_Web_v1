@@ -71,7 +71,6 @@ const Hero = () => {
             className={`${styles.heroImage} ${
               fade ? styles.fadeIn : styles.fadeOut
             }`}
-            priority
             loading="lazy"
           />
         </div>
