@@ -48,6 +48,7 @@ const ContactPage = () => {
       );
 
       const result = await response.text();
+      console.log(result);
 
       setSuccess("Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
@@ -63,8 +64,8 @@ const ContactPage = () => {
     <div className={styles.contact}>
       <h1>Contact Us</h1>
       <p className={styles.subtitle}>
-        Have a question, feedback, or partnership idea? We'd love to hear from
-        you.
+        Have a question, feedback, or partnership idea? We would love to hear
+        from you.
       </p>
 
       <form className={styles.form} onSubmit={handleSubmit}>

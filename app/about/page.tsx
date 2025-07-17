@@ -12,7 +12,7 @@ const AboutPage = () => {
         <div className={styles.content}>
           <h1>About Olearn</h1>
           <p>
-            Olearn is more than a learning platform — it's your personal growth
+            Olearn is more than a learning platform — it is your personal growth
             partner. We provide high-quality, accessible, and flexible learning
             experiences to help you thrive in your personal and professional
             journey.
@@ -34,7 +34,7 @@ const AboutPage = () => {
         <h2>Our Mission</h2>
         <p>
           To democratize education by delivering flexible, expert-led courses to
-          learners worldwide. Whether you're starting your first line of code,
+          learners worldwide. Whether you are starting your first line of code,
           designing your first UI, or preparing for your dream job — Olearn is
           here to guide you every step of the way.
         </p>

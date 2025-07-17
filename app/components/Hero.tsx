@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   HeroSHow,
-  Categories,
   CoursesChapters,
   PlayerIMg,
   Certificate,
@@ -44,7 +43,7 @@ const Hero = () => {
         {/* Left Content */}
         <div className={styles.content}>
           <h1 className={styles.title}>
-            Learn Fast. <br />
+            Learn Fast <br />
             Learn Smart. <span className={styles.highlight}>Olearn</span>
           </h1>
           <p className={styles.subtitle}>
