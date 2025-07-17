@@ -72,6 +72,7 @@ const Hero = () => {
               fade ? styles.fadeIn : styles.fadeOut
             }`}
             priority
+            loading="lazy"
           />
         </div>
       </div>

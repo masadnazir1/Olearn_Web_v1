@@ -42,6 +42,7 @@ const PopularCourses = () => {
                   width={400}
                   height={240}
                   className={styles.image}
+                  loading="lazy"
                 />
               </div>
               <div className={styles.info}>

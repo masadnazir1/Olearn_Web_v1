@@ -66,6 +66,7 @@ export default function AppWalkthrough() {
                 alt={item.title}
                 className={styles.image}
                 fill
+                loading="lazy"
               />
             </div>
             <h3 className={styles.title}>{item.title}</h3>

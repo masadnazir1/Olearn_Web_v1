@@ -20,7 +20,13 @@ const Navbar = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Image src={Logo} alt="Olearn" width="100" height={40} />
+          <Image
+            src={Logo}
+            alt="Olearn"
+            width="100"
+            height={40}
+            loading="lazy"
+          />
         </Link>
 
         {/* Desktop Navigation */}

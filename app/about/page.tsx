@@ -25,6 +25,7 @@ const AboutPage = () => {
             width={500}
             height={400}
             className={styles.heroImage}
+            loading="lazy"
           />
         </div>
       </section>
