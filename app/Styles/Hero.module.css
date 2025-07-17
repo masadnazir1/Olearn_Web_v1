@@ -1,0 +1,84 @@
+.hero {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8db1ff;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #3b82f6;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 24px;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.primaryBtn,
+.secondaryBtn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.primaryBtn {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.secondaryBtn {
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
+.imageWrapper {
+    flex: 1;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.heroImage {
+    border-radius: 12px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+
+.fadeOut {
+    opacity: 0;
+}
