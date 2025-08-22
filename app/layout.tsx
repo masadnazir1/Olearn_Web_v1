@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://olearn.com",
   },
+  other: {
+    "kadam-verification": "kadamfec6fee6a8f22a24b0d68afdb7b49e81",
+  },
 };
 
 export default function RootLayout({
